@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Quote Generator</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="date-time-container">
+        <p id="date-time"></p>
+    </div>    
+    <div class="container">
+        <div class="quote-container">
+            <h1 class="mb-4">Random Number Quote Generator</h1>
+            <div class="form-group">
+                <label for="number-input">Enter a number:</label>
+                <input type="number" class="form-control" id="number-input" placeholder="Enter a number">
+            </div>
+            <button id="generate-btn" class="btn btn-primary btn-block mt-3">Generate Quotes</button>
+            <div class="mt-4">
+                <p id="quote">Click the button to generate quotes.</p>
+            </div>
+        </div>
+    </div>
+    <script src="quote.js"></script>
+</body>
+</html>
